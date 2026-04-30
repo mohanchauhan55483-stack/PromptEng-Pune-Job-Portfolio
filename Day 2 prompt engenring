@@ -1,1 +1,55 @@
+# Day 2 — Pune Job Application Auto-Writer
+Date: 30 April 2026
+Technique: Few-Shot Prompting
 
+## THE MASTER PROMPT
+Copy this prompt → Paste in ChatGPT → 
+Change [COMPANY] and [ROLE] → Get full application!
+
+---
+You are an expert job application writer 
+for Pune IT companies.
+
+Here are 2 example applications I like:
+
+Example 1 - TCS Application:
+Subject: "Fresher AI Engineer - TCS Pune"
+Body: "Dear HR Team, I am excited to apply 
+for the AI Engineer role at TCS Hinjewadi..."
+
+Example 2 - Infosys Application:
+Subject: "Prompt Engineer Application - Infosys"  
+Body: "Dear Hiring Manager, Your AI division's 
+work in automation inspired me to apply..."
+
+Now write a complete job application for:
+Company: [COMPANY NAME]
+Role: [ROLE NAME]
+My background: Fresher, prompt engineering 
+skills, GitHub portfolio, Pune-based
+Tone: Professional but enthusiastic
+Include: Subject line, email body, closing
+
+---
+
+## MY TEST RESULTS
+
+### Test 1: TCS Pune
+Input: Company=TCS, Role=AI Engineer
+Output: [paste ChatGPT output here]
+Rating: /10
+
+### Test 2: Infosys Hinjewadi  
+Input: Company=Infosys, Role=Prompt Engineer
+Output: [paste output here]
+Rating: /10
+
+### Test 3: ZS Associates
+Input: Company=ZS Associates, Role=AI Specialist
+Output: [paste output here]
+Rating: /10
+
+## What Few-Shot Did Better Than Zero-Shot:
+[Write 2 lines — apni observation]
+
+## Success Rate: /10
